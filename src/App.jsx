@@ -1,12 +1,21 @@
-import React from 'react'
+import React from "react";
+import "./App.css";
+import Header from "./header.jsx";
 
 function App() {
   return (
-    <div className='app'>
-      <h1>Lets build a LinkedIn Clone</h1>
-      
+    <div className="app">
+   
+
+      {/* Header  */}
+      <Header />
+
+      {/* App Body  */}
+      {/* Sidebar */}
+      {/* Feed */}
+      {/* Widgets */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
